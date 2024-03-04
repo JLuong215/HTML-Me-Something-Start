@@ -1,1 +1,44 @@
 /* Write your CSS here! */
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    background-color: teal;
+  }
+  
+  h1 { 
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .center {
+    text-align: center;
+  }
+
+  .funParagraph {
+    color: green;
+  }
+
+  #mainHeading {
+    color: red;
+  }
+
+#topright {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    display: block;
+    height: 150px;
+    width: 150px;
+    background: url(TRbanner.gif) no-repeat;
+    text-indent: -999em;
+    text-decoration: none;
+}
